@@ -58,77 +58,40 @@ body {
   }
 }
   
-
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1603244092970x476752285650107840%2Fintelligent-robot-machine-pointing-finger-on-dark-background-picture-id1208013946.jpg?w=1536&h=1019&auto=compress&fit=crop&dpr=2.5");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container {
-  text-align: center;
-  color: white;
-  font-size: 500%;
-}
-
-.centered {
+.container .btn {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
 }
-  
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
 
-
-  
   
 </style>
 </head>
 <body>
 
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-  </div>
-</div>
 
 
-<span style="font-size:30px;cursor:pointer;color: #ffffff" onclick="openNav()">&#9776; </span>
 
-<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
 
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
 
 <div class="bg"></div>
   
 
 <div class="container">
   <div class="centered">Echo Bot</div>
+  <button class="btn">Button</button><button class="btn">Button</button><button class="btn">Button</button>
+
+</div>
 </div>
 
 </body>
