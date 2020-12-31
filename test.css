@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Echo Home</title>
+<link rel="icon" href="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1608870189296x400597997148485000%2Fdiscord-logo-1024x1024%2520%252825%2529.png?w=192&h=192&auto=compress&fit=crop&dpr=2.5">
+<meta name="description" content="Echo is a multifunctional discord bot. Made for everyone and their servers. Echo is updated regularly!">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 @import compass
 
 
@@ -23,7 +31,7 @@ html
   height: 1px
   background: transparent
   box-shadow: $shadows-small
-  animation     : animStar 50s linear infinite
+  animation			: animStar 50s linear infinite
     
   &:after
     content: " "
@@ -39,7 +47,7 @@ html
   height: 2px
   background: transparent
   box-shadow: $shadows-medium
-  animation     : animStar 100s linear infinite
+  animation			: animStar 100s linear infinite
     
   &:after
     content: " "
@@ -55,7 +63,7 @@ html
   height: 3px
   background: transparent
   box-shadow: $shadows-big
-  animation     : animStar 150s linear infinite
+  animation			: animStar 150s linear infinite
     
   &:after
     content: " "
@@ -88,19 +96,9 @@ html
     -webkit-text-fill-color: transparent
     
 @keyframes animStar
-  from  
+  from	
     transform: translateY(0px)
-  to    
+  to		
     transform: translateY(-2000px)
     
-
-<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-#stars
-#stars2
-#stars3
-#title
-  %span
-    PURE CSS
-  %br
-  %span
-    PARALLAX PIXEL STARS
+</style>
