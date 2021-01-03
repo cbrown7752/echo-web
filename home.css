@@ -24,7 +24,6 @@ body{
 
   transform-style: preserve-3d;
   animation: rotate 20s linear infinite;
-  zoom: 4;
 }
 
 @keyframes rotate 
