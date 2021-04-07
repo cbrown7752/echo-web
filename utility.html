@@ -8,6 +8,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
+ .alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: 	#000080;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
   
 .container {
   position: relative;
@@ -16,13 +44,6 @@
   font-size: 100%;
   z-index: -1;
 }
-  
-  footer {
-            text-align: center;
-            padding: 3px;
-            background-color: #333333;
-            color: white;
-        }
  
 .centered {
   position: fixed;
@@ -34,6 +55,13 @@
   h2 .blue-text {
     color: blue;
   }
+  
+  footer {
+            text-align: center;
+            padding: 3px;
+            background-color: #333333;
+            color: white;
+        }
   
 </style>
   <meta charset="utf-8">
@@ -77,6 +105,23 @@
   </div>
 </nav>
 <body style="background-color:#000000;">
+    <div class="alert info">
+  <span class="closebtn">&times;</span>  
+  
+  <p>The Commands on this website may not mach up with the commands on Echo Bot. This site will be updated on 4/7/21 by 10pm CST.</p>
+</div>
+<script>
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+</script>
 <div class="container">
   <p style="text-align: center;"><span style="font-size: 24px; color: rgb(85, 85, 85);">Utility Commands</span></p>
 <p style="text-align: center;"><br></p>
