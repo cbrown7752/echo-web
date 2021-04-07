@@ -74,18 +74,6 @@
 
 
 
-<script>
-var close = document.getElementsByClassName("closebtn");
-var i;
-
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function(){
-    var div = this.parentElement;
-    div.style.opacity = "0";
-    setTimeout(function(){ div.style.display = "none"; }, 600);
-  }
-}
-</script>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -125,6 +113,18 @@ for (i = 0; i < close.length; i++) {
   
   <p>The Commands on this website may not mach up with the commands on Echo Bot. This site will be updated on 4/7/21 by 10pm CST.</p>
 </div>
+<script>
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+</script>
 
 <p style="text-align: center;"><span style="color: rgb(124, 112, 107); font-size: 26px;">Music Commands</span></p>
 <p style="text-align: center;"><br></p>
